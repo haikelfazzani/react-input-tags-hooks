@@ -1,0 +1,60 @@
+.tag-container {
+  border: 2px solid #f5f5f5;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px;
+  display: inline-block;
+  width: 100%;
+}
+
+.tag-container .input-tags {
+  width: 50%;
+  border: 0 !important;
+  outline: none !important;
+}
+
+.tags {
+  font-size: 14px;
+  background: #3273dc;
+  color: #fff;
+  margin-right: 10px;
+  box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
+}
+
+.tag:not(body).is-link {
+  background-color: #f14668;
+  color: #fff;
+}
+
+.tags .tag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tag:not(body) {
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  color: #4a4a4a;
+  display: inline-flex;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: .75em;
+  padding-right: .75em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tags.has-addons .tag:not(:first-child) {
+  margin-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.tags.has-addons .tag:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tags .is-delete:hover {background-color: #e6e6e6;}

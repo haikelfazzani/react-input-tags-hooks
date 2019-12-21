@@ -1,0 +1,18 @@
+body{
+  background-color: #ebebeb;
+}
+
+.container{
+  width: 300px;
+}
+
+pre {
+  background-color: #1d1d1d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.mb-3 {margin-bottom: 30px;}
+.mt-3 {margin-top: 30px;}
