@@ -1,7 +1,7 @@
 ## 📋 React input tags using hooks 
 A lightweight React component input tags.  
 
-[Demo](https://react-input-tags-hooks.onrender.com)
+### [Demo](https://stackblitz.com/edit/react-y7tnba)
 
 ![bundlephobia badge](https://badgen.net/npm/v/react-input-tags-hooks) ![bundlephobia badge](https://badgen.net/bundlephobia/min/react-input-tags-hooks) ![bundlephobia badge](https://badgen.net/bundlephobia/minzip/react-input-tags-hooks)
 
